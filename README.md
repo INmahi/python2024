@@ -8,10 +8,8 @@
 ---
 
 **Important Learnings**
-1. Indentation
-    ```Important to follow the indentation
-    if 5 > 2:
-        print("Five is greater than two!")
+1. Important to follow the indentation
+2. 
 
 
 
