@@ -7,7 +7,7 @@
 #=========sorting==============#
     #case sensetive, Uppercase priority, number as string priority
 
-#make a list of integers and sort them according to how far they are from the number 50
+#make a list of integers and sort them according to how far they are from the number 128
 # def myFunc(n):
 #     # value = n-128
 #     # print(f"({n},{value})")
@@ -111,13 +111,54 @@
 #         print("Invalid Day")    
 
 
-i = 8
-while i <= 6:
-    i += 1
-    if i == 3:
-        break
-    else:
-        print(i)
+# i = 8
+# while i <= 6:
+#     i += 1
+#     if i == 3:
+#         break
+#     else:
+#         print(i)
    
-else:
-    print("I am out of the loop")
+# else:
+#     print("I am out of the loop")
+
+
+# newlist =[34,34,9,45,2345,98,123]
+
+# def farFrom45(num):
+#     value=45-num
+#     return(abs(value))
+
+# newlist.sort(reverse=True,key=farFrom45)
+# print(newlist)
+
+
+# i = 0
+# while i<10:
+#     i+=1
+#     if i==5:
+#         continue
+#     print(i)
+    
+got_characters = [
+        "Jon Snow",
+        "Daenerys Targaryen",
+        "Tyrion Lannister",
+        "Arya Stark",
+        "Sansa Stark",
+        "Cersei Lannister",
+        "Jaime Lannister",
+        "Bran Stark",
+        "Brienne of Tarth",
+        "Theon Greyjoy",
+        "Samwell Tarly",
+        "Jorah Mormont",
+        "Petyr Baelish",
+        "Varys",
+        "Sandor Clegane"
+    ]
+for x in got_characters:
+    if x == "Varys":
+        print("Got the eunuch!!")
+    else:
+        print(f"its not {x}")
