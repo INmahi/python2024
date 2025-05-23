@@ -1,0 +1,14 @@
+PYTHON CONFUSION AND REMARKS
+
+sum = 0
+i = 0
+def getSum(k):
+    while i<=k:
+        sum=sum+i
+        i+=1
+    print(sum)    
+    return sum
+getsum(3)
+
+
+UnboundLocalError: cannot access local variable 'sum' where it is not associated with a value

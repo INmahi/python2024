@@ -140,25 +140,100 @@
 #         continue
 #     print(i)
     
-got_characters = [
-        "Jon Snow",
-        "Daenerys Targaryen",
-        "Tyrion Lannister",
-        "Arya Stark",
-        "Sansa Stark",
-        "Cersei Lannister",
-        "Jaime Lannister",
-        "Bran Stark",
-        "Brienne of Tarth",
-        "Theon Greyjoy",
-        "Samwell Tarly",
-        "Jorah Mormont",
-        "Petyr Baelish",
-        "Varys",
-        "Sandor Clegane"
-    ]
-for x in got_characters:
-    if x == "Varys":
-        print("Got the eunuch!!")
-    else:
-        print(f"its not {x}")
+# got_characters = [
+#         "Jon Snow",
+#         "Daenerys Targaryen",
+#         "Tyrion Lannister",
+#         "Arya Stark",
+#         "Sansa Stark",
+#         "Cersei Lannister",
+#         "Jaime Lannister",
+#         "Bran Stark",
+#         "Brienne of Tarth",
+#         "Theon Greyjoy",
+#         "Samwell Tarly",
+#         "Jorah Mormont",
+#         "Petyr Baelish",
+#         "Varys",
+#         "Sandor Clegane"
+#     ]
+# for x in got_characters:
+#     if x == "Varys":
+#         print("Got the eunuch!!")
+#     else:
+#         print(f"its not {x}")
+
+
+# i = 1
+# while i<=7:
+#     j=1
+#     numOfSpaces = (7-i)/2
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print("")
+#     i+=2
+
+
+# i = 1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1
+
+#function
+
+# def myFunc(*kids):
+#     print(type(kids))
+#     print(kids[-1])
+
+# myFunc("ishat","Noor","mahi")
+
+# def intro(**kwargs):
+#     for x,y in kwargs.items():
+#         print(f"{x} ~ {y} ")
+
+# intro(Name="Mahi",Age=13,height="6 ft")
+
+# def controlledFunc(a,b,/,*,c,d):
+#     pass
+
+# # Any argument before the / , are positional-only, and any argument after the *, are keyword-only.
+#def getSum(k):
+#     sum = 0
+#     i = 0
+#     while i<=k:
+#         sum=sum+i
+#         i+=1
+#     # print(sum)    
+#     return sum
+
+# print(getSum(3)+3)
+#RECURSION
+
+# def tri_recursion(k):
+#   if(k > 0):
+#     result = k + tri_recursion(k - 1)
+#     print(result)
+#   else:
+#     result = 0
+#     print(result)
+#   return result
+
+# print("Recursion Example Results:")
+# tri_recursion(4)
+ 
+
+#AVG
+
+def getAvg(*var):
+    sum = 0
+    for x in var:
+        sum = sum+x
+    avg = sum/len(var)
+    print(f"Number Of individuals: {len(var)} \nSummation: {sum} \nAVERAGE: {avg}")
+    return avg
+print(getAvg(1,2,3,4,5,6))
