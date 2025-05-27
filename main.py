@@ -413,3 +413,14 @@ def decode() -> None:
 # if __name__ == "__main__":
 #     main()
 
+ab = 2
+bc = 3
+
+# print("ab") if ab>bc else print("=") if ab == bc else print("bc")
+
+integers_list = [10, 25, 7, 42, 3, 18]
+
+# # i = 0
+# for index, intiger in enumerate(integers_list):
+#     print(index,intiger)
+#     # i+=1

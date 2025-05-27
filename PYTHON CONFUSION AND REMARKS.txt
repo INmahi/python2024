@@ -1,3 +1,7 @@
+# kwargs
+#enumerate function -> gives the index of every item while iterating through 
+
+
 PYTHON CONFUSION AND REMARKS
 
 sum = 0
