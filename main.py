@@ -1,7 +1,6 @@
 from rich import print
 import string
 import random
-
 #list => ordered - Changable - Duplicates
 #tuple => ordered - unchangable - Duplicates
 #dict => unordered - changable - no duplicates
