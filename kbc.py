@@ -67,3 +67,5 @@ def finishGame():
 if init=="START":
     print("Type Down The Correct Option Letter (A,B,C or D):\n")
     startKBC()
+else:
+    print("[bold red]Invalid Input[/bold red]")
