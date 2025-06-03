@@ -44,7 +44,17 @@ from functools import reduce
 
 #FILTER ALL NON EMPTY STRINGS
 
-ls = ["apple", "", "banana", " ", "cherry", "", "date", "fig", ""]
+# ls = ["apple", "", "banana", " ", "cherry", "", "date", "fig", ""]
 
-print(list(filter(lambda x: x.strip(),ls)))
+# print(list(filter(lambda x: x.strip(),ls)))
+
+
+# #NORMALIZE VALUES: CONVERT THE NUMBERS OF A LIST INTO A SCALE OF 0 TO 1
+
+# ls = [1,4,2,4,5,6,7,2,5,8,9,60,59,47,25,12]
+
+# min = min(ls)
+# max = max(ls)
+
+# print(list(map(lambda x: round((x-min)/(max-min),2),ls)))
 
