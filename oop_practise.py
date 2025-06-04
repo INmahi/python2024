@@ -31,3 +31,40 @@
 
 # cat.speak()
 # cat.scratch()
+
+
+##EASY ONE 
+
+from dataclasses import dataclass
+
+@dataclass
+# class Person():
+#     name :str
+#     age : str
+#     job : str
+#     salary : str
+
+#     def print_info(self):
+#         print(f"Person's name is {self.name}. Person is {self.age} years old. Job: {self.job}. Salary: {self.salary}")
+
+# a = Person("Mahi","21","St","0$")
+
+# a.print_info()
+
+
+#traditional
+
+
+class Person():
+    def __init__(self,name,age,job,salary):
+        self.name = name
+        self.age = age
+        self.job = job
+        self.salary = salary
+
+    def print_info(self):
+        print(f"Person's name is {self.name}. Person is {self.age} years old. Job: {self.job}. Salary: {self.salary}")
+
+
+mahi = Person("Maahi","21","student","0$")
+mahi.print_info()
