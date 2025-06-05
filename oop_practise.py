@@ -35,9 +35,9 @@
 
 ##EASY ONE 
 
-from dataclasses import dataclass
+# from dataclasses import dataclass
 
-@dataclass
+# @dataclass
 # class Person():
 #     name :str
 #     age : str
@@ -66,5 +66,22 @@ class Person():
         print(f"Person's name is {self.name}. Person is {self.age} years old. Job: {self.job}. Salary: {self.salary}")
 
 
-mahi = Person("Maahi","21","student","0$")
-mahi.print_info()
+# mahi = Person("Maahi","21","student","0$")
+# mahi.print_info()
+
+#decorator
+# a function that modifies other functions
+
+
+# mechanism: @deco means func = deco(func). so func now refers to mfx because this is was is being returned
+def deco(fx):
+    def mfx():
+        print("Decorator Prefix")
+        fx()
+        print("decorator suffix")
+    return mfx
+@deco
+def func():
+    print("Hello main function")
+
+func()
