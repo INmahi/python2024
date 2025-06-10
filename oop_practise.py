@@ -84,4 +84,25 @@ def deco(fx):
 def func():
     print("Hello main function")
 
-func()
+# func()
+
+class Model:
+    def __init__(self, name):
+        self.name = name
+        self.accuracy = 0
+
+    def update_accuracy(self, new_accuracy):
+        if 0 <= new_accuracy <= 100:
+            self.accuracy = new_accuracy
+        else:
+            print("Invalid accuracy value!")
+
+    def summary(self):
+        print(f"{self.name} model accuracy: {self.accuracy}%")
+
+clf = Model("RandomForest")
+clf.summary()                     # 0%
+clf.update_accuracy(91.3)
+clf.summary()                     # 91.3%
+
+print(clf.accuracy)
