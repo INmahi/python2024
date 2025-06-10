@@ -73,7 +73,7 @@ class Person():
 # a function that modifies other functions
 
 
-# mechanism: @deco means func = deco(func). so func now refers to mfx because this is was is being returned
+# mechanism: @deco means func = deco(func)  or deco(func)(). so func now refers to mfx because this is was is being returned
 def deco(fx):
     def mfx():
         print("Decorator Prefix")
