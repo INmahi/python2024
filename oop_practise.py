@@ -86,7 +86,7 @@ def func():
 
 # func()
 
-class Model:
+class Model():
     def __init__(self, name):
         self.name = name
         self.accuracy = 0
@@ -106,3 +106,29 @@ clf.update_accuracy(91.3)
 clf.summary()                     # 91.3%
 
 print(clf.accuracy)
+
+
+print("---------")
+
+class NewEmp:
+
+    company = "apple"
+
+    @classmethod
+    def cng_company(self,new_companny):
+
+        self.company = new_companny
+
+    def show_details(self):
+
+        print(f"{self.name}'s company is {self.company}")
+
+
+# e1 = NewEmp()
+# e1.name = "Mahi"
+# e1.cng_company("tesla")
+
+# e1.show_details()
+
+# print(NewEmp.company)
+
