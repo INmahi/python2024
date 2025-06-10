@@ -16,3 +16,7 @@ getsum(3)
 
 
 UnboundLocalError: cannot access local variable 'sum' where it is not associated with a value
+
+
+
+class method: https://www.youtube.com/watch?v=9ynmDLc5FYo&list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg&index=69
