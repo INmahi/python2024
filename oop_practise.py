@@ -90,25 +90,25 @@ class Model():
     def __init__(self, name):
         self.name = name
         self.accuracy = 0
-
-    def update_accuracy(self, new_accuracy):
+    @classmethod
+    def update_accuracy(cls, new_accuracy):
         if 0 <= new_accuracy <= 100:
-            self.accuracy = new_accuracy
+            cls.accuracy = new_accuracy
         else:
             print("Invalid accuracy value!")
 
     def summary(self):
         print(f"{self.name} model accuracy: {self.accuracy}%")
 
-clf = Model("RandomForest")
-clf.summary()                     # 0%
-clf.update_accuracy(91.3)
-clf.summary()                     # 91.3%
+# clf = Model("RandomForest")
+# clf.summary()                     # 0%
+# clf.update_accuracy(91.3)
+# clf.summary()                     # 91.3%
 
-print(clf.accuracy)
+# print(Model.accuracy)
 
 
-print("---------")
+# print("---------")
 
 class NewEmp:
 
@@ -126,9 +126,12 @@ class NewEmp:
 
 # e1 = NewEmp()
 # e1.name = "Mahi"
+# e1.show_details()
+
 # e1.cng_company("tesla")
 
 # e1.show_details()
 
-# print(NewEmp.company)
+# print(NewEmp.company) #tesla
+
 
