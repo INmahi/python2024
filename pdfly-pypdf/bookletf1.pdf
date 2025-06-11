@@ -1,0 +1,625 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 8 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Contents 7 0 R
+/MediaBox [ 0.0 0.0 2381.12 841.89 ]
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<<
+/Length 6605
+>>
+stream
+q
+q
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+BT /F1 12.00 Tf ET
+q 0.000 g BT 120.95 795.77 Td (3-Month Learning Plan: Python, NumPy, OpenCV, TensorFlow) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 756.68 Td (- Object tracking and masking) Tj ET Q
+q 0.000 g BT 31.19 711.33 Td (Evaluation:) Tj ET Q
+q 0.000 g BT 31.19 688.65 Td (- Project: Virtual paint app with object tracking) Tj ET Q
+BT /F1 11.00 Tf ET
+q 0.000 0.000 0.502 rg BT 31.19 640.16 Td (Week 9: TensorFlow Basics + MNIST) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 614.95 Td (Topics:) Tj ET Q
+q 0.000 g BT 31.19 592.27 Td (- Supervised learning, neural nets) Tj ET Q
+q 0.000 g BT 31.19 569.60 Td (- Model creation and training) Tj ET Q
+q 0.000 g BT 31.19 524.24 Td (Evaluation:) Tj ET Q
+q 0.000 g BT 31.19 501.56 Td (- Project: MNIST digit recognizer with basic model) Tj ET Q
+BT /F1 11.00 Tf ET
+q 0.000 0.000 0.502 rg BT 31.19 453.07 Td (Week 10: Custom Image Classifier) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 427.86 Td (Topics:) Tj ET Q
+q 0.000 g BT 31.19 405.19 Td (- Load and preprocess dataset) Tj ET Q
+q 0.000 g BT 31.19 382.51 Td (- Build, train, evaluate custom model) Tj ET Q
+q 0.000 g BT 31.19 337.15 Td (Evaluation:) Tj ET Q
+q 0.000 g BT 31.19 314.48 Td (- Project: Image classifier \(bugs, coins, etc.\)) Tj ET Q
+BT /F1 11.00 Tf ET
+q 0.000 0.000 0.502 rg BT 31.19 265.99 Td (Week 11: TensorFlow + OpenCV Integration) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 240.78 Td (Topics:) Tj ET Q
+q 0.000 g BT 31.19 218.10 Td (- Pass OpenCV frames into TensorFlow model) Tj ET Q
+q 0.000 g BT 31.19 195.42 Td (- Live prediction from webcam) Tj ET Q
+q 0.000 g BT 31.19 150.07 Td (Evaluation:) Tj ET Q
+q 0.000 g BT 31.19 127.39 Td (- Project: Real-time webcam object recognizer) Tj ET Q
+BT /F1 11.00 Tf ET
+q 0.000 0.000 0.502 rg BT 31.19 78.90 Td (Week 12: Model Deployment + Final Review) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 53.69 Td (Topics:) Tj ET Q
+
+Q
+
+q
+1 0.0 0.0 1 595.28 0.0 cm
+0.0 0.0 595.28 841.89 re
+W
+n
+2 J
+0.57 w
+BT
+/F2 10 Tf
+ET
+BT
+/F1 12 Tf
+ET
+q
+0.0 g
+BT
+120.95 795.77 Td
+(3\055Month Learning Plan\072 Python\054 NumPy\054 OpenCV\054 TensorFlow) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 756.68 Td
+(\055 Export model\054 TFLite overview) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 734 Td
+(\055 Flask dashboard \053 ESP32 overview) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 688.65 Td
+(Evaluation\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 665.97 Td
+(\055 Project\072 Host ML model or create final integration with OpenCV\057TensorFlow) Tj
+ET
+Q
+Q
+
+
+Q
+
+q
+1 0.0 0.0 1 1190.56 0.0 cm
+0.0 0.0 1190.56 841.89 re
+W
+n
+q
+2 J
+0.57 w
+BT
+/F1 12 Tf
+ET
+BT
+120.95 795.77 Td
+(3\055Month Learning Plan\072 Python\054 NumPy\054 OpenCV\054 TensorFlow) Tj
+ET
+BT
+/F1 11 Tf
+ET
+q
+0.0 0.0 0.502 rg
+BT
+31.19 753.55 Td
+(Week 1\072 Python Basics) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 728.34 Td
+(Topics\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 705.66 Td
+(\055 Functions\054 Loops\054 Lists\054 Dictionaries) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 682.98 Td
+(\055 File I\057O\054 Exception Handling) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 637.63 Td
+(Evaluation\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 614.95 Td
+(\055 Task\072 Build a text\055based calculator) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 592.27 Td
+(\055 Task\072 Create a contact book using a dictionary) Tj
+ET
+Q
+BT
+/F1 11 Tf
+ET
+q
+0.0 0.0 0.502 rg
+BT
+31.19 543.78 Td
+(Week 2\072 OOP \053 Intermediate Python) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 518.57 Td
+(Topics\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 495.89 Td
+(\055 Classes\054 Objects\054 Modules) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 473.22 Td
+(\055 Lambda\054 map\054 filter) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 427.86 Td
+(Evaluation\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 405.19 Td
+(\055 Task\072 Student result system using classes) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 382.51 Td
+(\055 Task\072 Simulate sensor data and save to file) Tj
+ET
+Q
+BT
+/F1 11 Tf
+ET
+q
+0.0 0.0 0.502 rg
+BT
+31.19 334.02 Td
+(Week 3\072 NumPy \053 Pandas Basics) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 308.81 Td
+(Topics\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 286.13 Td
+(\055 NumPy arrays\054 slicing\054 math) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 263.45 Td
+(\055 Pandas\072 DataFrames\054 reading\057filtering CSV) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 218.1 Td
+(Evaluation\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 195.42 Td
+(\055 Task\072 Analyze mock weather data) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 172.74 Td
+(\055 Task\072 Convert lists to NumPy and perform stats) Tj
+ET
+Q
+BT
+/F1 11 Tf
+ET
+q
+0.0 0.0 0.502 rg
+BT
+31.19 124.26 Td
+(Week 4\072 Mini Projects with Python \053 Pandas) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 99.04 Td
+(Topics\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 76.37 Td
+(\055 Data logger with Matplotlib) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 53.69 Td
+(\055 CSV file processing and visualization) Tj
+ET
+Q
+Q
+q
+1 0.0 0.0 1 595.28 0.0 cm
+0.0 0.0 595.28 841.89 re
+W
+n
+2 J
+0.57 w
+BT
+/F2 10 Tf
+ET
+BT
+/F1 12 Tf
+ET
+q
+0.0 g
+BT
+120.95 795.77 Td
+(3\055Month Learning Plan\072 Python\054 NumPy\054 OpenCV\054 TensorFlow) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 734 Td
+(Evaluation\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 711.33 Td
+(\055 Project\072 Sensor dashboard using CSV and Pandas) Tj
+ET
+Q
+BT
+/F1 11 Tf
+ET
+q
+0.0 0.0 0.502 rg
+BT
+31.19 662.84 Td
+(Week 5\072 OpenCV Setup \053 Image Basics) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 637.63 Td
+(Topics\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 614.95 Td
+(\055 Load\054 save\054 show images) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 592.27 Td
+(\055 Draw shapes\054 color conversions) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 546.92 Td
+(Evaluation\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 524.24 Td
+(\055 Task\072 Build a simple drawing app) Tj
+ET
+Q
+BT
+/F1 11 Tf
+ET
+q
+0.0 0.0 0.502 rg
+BT
+31.19 475.75 Td
+(Week 6\072 Image Processing \053 Contours) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 450.54 Td
+(Topics\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 427.86 Td
+(\055 Blur\054 threshold\054 edge detection) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 405.19 Td
+(\055 Find and draw contours) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 359.83 Td
+(Evaluation\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 337.15 Td
+(\055 Project\072 Shape\057edge counter app) Tj
+ET
+Q
+BT
+/F1 11 Tf
+ET
+q
+0.0 0.0 0.502 rg
+BT
+31.19 288.67 Td
+(Week 7\072 Video Capture \053 Face Detection) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 263.45 Td
+(Topics\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 240.78 Td
+(\055 Webcam input\054 real\055time frames) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 218.1 Td
+(\055 Haar cascades for face detection) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 172.74 Td
+(Evaluation\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 150.07 Td
+(\055 Project\072 Webcam\055based face detection) Tj
+ET
+Q
+BT
+/F1 11 Tf
+ET
+q
+0.0 0.0 0.502 rg
+BT
+31.19 101.58 Td
+(Week 8\072 OpenCV Real Projects \053 Masking) Tj
+ET
+Q
+BT
+/F2 10 Tf
+ET
+q
+0.0 g
+BT
+31.19 76.37 Td
+(Topics\072) Tj
+ET
+Q
+q
+0.0 g
+BT
+31.19 53.69 Td
+(\055 Bitwise operations) Tj
+ET
+Q
+Q
+Q
+
+
+endstream
+endobj
+8 0 obj
+<<
+/Type /Page
+/Resources <<
+/ProcSet [ ]
+>>
+/MediaBox [ 0.0 0.0 2381.12 841.89 ]
+/Contents 9 0 R
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Length 0
+>>
+stream
+
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000119 00000 n 
+0000000168 00000 n 
+0000000377 00000 n 
+0000000479 00000 n 
+0000000576 00000 n 
+0000007233 00000 n 
+0000007375 00000 n 
+trailer
+<<
+/Size 10
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+7424
+%%EOF
