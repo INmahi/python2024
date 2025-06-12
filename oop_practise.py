@@ -1,3 +1,5 @@
+from vector import Vector as v
+
 # class Animal:
 #     def __init__(self, name, sound):
 #         self.name = name
@@ -135,3 +137,43 @@ class NewEmp:
 # print(NewEmp.company) #tesla
 
 
+v1 = v(1,2,3)
+v2 = v(4,5,6)
+
+# print(v1.angle_with(v2))
+
+class Pet:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+        
+    def make_sound(self):
+        print("Sound made by the animal")
+    def anatomy(self):
+        print("Anatomy of the pet")
+class Dog(Pet):
+    def __init__(self, name, breed):
+        Pet.__init__(self, name, species="Dog")
+        self.breed = breed
+    def fetch(self, thing):
+        print(f"{self.name} goes after the {thing}!")
+    def make_sound(self):
+        print("Bark!")
+class Cat(Pet):
+    def __init__(self, name, breed):
+        Pet.__init__(self, name, species="Cat")
+        self.breed = breed
+    def scratch(self, thing):
+        print(f"{self.name} the catc scratches  {thing}!")
+
+    def make_sound(self):
+        print("Meow!")
+    
+
+# d = Dog("Dog", "Doggerman")
+# d.make_sound()
+# d.fetch("ball")
+# c= Cat("Cat", "Catman")
+# c.make_sound()
+
+# c.anatomy()
