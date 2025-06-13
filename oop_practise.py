@@ -164,7 +164,7 @@ class Cat(Pet):
         Pet.__init__(self, name, species="Cat")
         self.breed = breed
     def scratch(self, thing):
-        print(f"{self.name} the catc scratches  {thing}!")
+        print(f"{self.name} the cat scratches  {thing}!")
 
     def make_sound(self):
         print("Meow!")
