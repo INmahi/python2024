@@ -423,3 +423,47 @@ integers_list = [10, 25, 7, 42, 3, 18]
 # for index, intiger in enumerate(integers_list):
 #     print(index,intiger)
 #     # i+=1
+
+
+# inp = ' '.join(input("name: ").strip().split())
+
+# print(inp)
+
+# h,w = input("Enter size: ").split(",")
+
+# for _ in range(int(h)):
+
+#     for _ in range(int(w)):
+#         print("-",end='')
+
+#     print("")    
+
+### imp
+
+#def main():
+#
+#    user_expression = input("Expression: ").strip()
+#
+#    x,y,z = user_expression.split(" ")
+#    x,z = int(x),int(z)
+
+#    result = 0
+
+#    ops = {
+#        "+": lambda x,z: x+z,
+#        "-": lambda x,z: x-z,
+#        "*": lambda x,z: x*z,
+#        "/": lambda x,z: x/z if z!=0 else "Cannot Devide by 0"
+#    }
+
+#    result = ops.get(y,lambda x,z:"Unsupported operator")(x,z)
+#    #look for key:y in ops, if not found priont "unsupported..". if found, it finds a function and we call it with x and z
+
+#    print(result)
+
+#main()
+
+
+# print(bool("sep" in "sep tem ber"))
+
+
