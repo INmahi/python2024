@@ -1,0 +1,5 @@
+res = 3//4
+ne = 1.4
+
+print(res)
+print(round(ne))
